@@ -1,5 +1,7 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:task_manager_app/utils/constants.dart';
+import 'package:task_manager_app/view/tasks/my_tasks_screen.dart';
 
 class TaskActionRowWidget extends StatelessWidget {
   const TaskActionRowWidget({
@@ -27,7 +29,13 @@ class TaskActionRowWidget extends StatelessWidget {
         ),
         const Spacer(),
         IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                  context,
+                  CupertinoPageRoute(
+                    builder: (context) => const MyTasksSCreen(),
+                  ));
+            },
             icon: const Icon(
               Icons.add,
               size: 30,

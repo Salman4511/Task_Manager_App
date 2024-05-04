@@ -92,3 +92,4 @@ const kgrey = Colors.grey;
 const kgreen = Colors.green;
 const kwhite = Colors.white;
 const kblue = Colors.blue;
+const kred = Colors.red;
