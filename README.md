@@ -1,16 +1,10 @@
-# task_manager_app
+# Task Manager App
+This project is a small Task Management app that incorporates smooth user experience principles. The app is built using MVC architecture,
 
-A new Flutter project.
+## Features
+UI Design: The app's user interface is designed following provided figma file, 
+Model-View-Controller (MVC): The app architecture is organized using the MVC pattern for separation of concerns and modularity. 
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used
+Flutter: Framework for building cross-platform applications. 
+Dart: Programming language used for Flutter development.
