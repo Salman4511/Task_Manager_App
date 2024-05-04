@@ -22,8 +22,11 @@ class TextFormFieldWidget extends StatelessWidget {
               borderSide: BorderSide.none,
               borderRadius: BorderRadius.circular(10)),
           hintText: '  $label',
-          suffixIcon: Icon(icon, color: kgrey)),
+          suffixIcon: Icon(icon, color: kgrey),
+          
+          ),
       maxLines: maxlines,
+      style: textstyle1,
     );
   }
 }
