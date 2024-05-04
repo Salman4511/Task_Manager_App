@@ -42,7 +42,7 @@ TextStyle textstyle13 =
     const TextStyle(color: kblue, fontWeight: FontWeight.w900, fontSize: 16);
 TextStyle textstyle14 =
     const TextStyle(fontSize: 18, fontWeight: FontWeight.bold);
-
+TextStyle textstyle00 = const TextStyle(fontSize: 18, fontWeight: FontWeight.bold,color: Colors.yellow);
 // Ksizedbox
 
 SizedBox kheight300 = const SizedBox(
