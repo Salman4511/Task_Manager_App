@@ -22,17 +22,17 @@ class TopBarWidget extends StatelessWidget {
           ),
         ),
         kwidth10,
-        const Column(
+        Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
+            const Text(
               'Good Evening,',
               style: TextStyle(fontSize: 12),
             ),
             Text(
               'Dan Smith',
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              style: textstyle9,
             )
           ],
         ),

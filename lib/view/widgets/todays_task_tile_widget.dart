@@ -59,22 +59,16 @@ class TodaysTaskTileWidget extends StatelessWidget {
             Row(
               children: [
                 kwidth18,
-                const Column(
+                Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
                       'Create a Landing Page and',
-                      style: TextStyle(
-                          fontSize: 18,
-                          decoration: TextDecoration.lineThrough,
-                          fontWeight: FontWeight.bold),
+                      style: textstyle8,
                     ),
                     Text(
                       'design as figma given',
-                      style: TextStyle(
-                          fontSize: 18,
-                          decoration: TextDecoration.lineThrough,
-                          fontWeight: FontWeight.bold),
+                      style: textstyle8,
                     ),
                   ],
                 ),
@@ -93,9 +87,9 @@ class TodaysTaskTileWidget extends StatelessWidget {
                   Icons.calendar_today_outlined,
                   size: 22,
                 ),
-                const Text(
+                Text(
                   ' Mon, 12 July 2022',
-                  style: TextStyle(fontSize: 12, color: kgrey),
+                  style: textstyle10,
                 ),
                 const Spacer(),
                 isVisible

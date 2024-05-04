@@ -23,13 +23,16 @@ TextStyle textstyle6 =
 TextStyle textstyle7 = const TextStyle(
     fontSize: 40, fontWeight: FontWeight.bold, color: Colors.white);
 TextStyle textstyle8 =
-    const TextStyle(fontSize: 15, fontWeight: FontWeight.w400, color: kgrey);
+    const TextStyle(
+    fontSize: 18,
+    decoration: TextDecoration.lineThrough,
+    fontWeight: FontWeight.bold);
 
 TextStyle textstyle9 =
-    const TextStyle(fontSize: 15, fontWeight: FontWeight.w400, color: kgrey);
+    const TextStyle(fontSize: 20, fontWeight: FontWeight.bold);
 
 TextStyle textstyle10 =
-    const TextStyle(color: kwhite, fontSize: 18, fontWeight: FontWeight.bold);
+    const TextStyle(fontSize: 12, color: kgrey);
 
 TextStyle textstyle11 =
     const TextStyle(color: kwhite, fontSize: 20, fontWeight: FontWeight.w900);

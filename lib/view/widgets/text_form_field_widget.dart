@@ -6,7 +6,10 @@ class TextFormFieldWidget extends StatelessWidget {
   final int? maxlines;
   final IconData? icon;
   const TextFormFieldWidget({
-    super.key, required this.label,  this.maxlines,  this.icon,
+    super.key,
+    required this.label,
+    this.maxlines,
+    this.icon,
   });
 
   @override
@@ -19,8 +22,7 @@ class TextFormFieldWidget extends StatelessWidget {
               borderSide: BorderSide.none,
               borderRadius: BorderRadius.circular(10)),
           hintText: '  $label',
-          suffixIcon: Icon(icon, color: kgrey)
-          ),
+          suffixIcon: Icon(icon, color: kgrey)),
       maxLines: maxlines,
     );
   }

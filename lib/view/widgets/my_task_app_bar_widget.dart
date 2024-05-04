@@ -22,9 +22,9 @@ class MyTaskAppBarWidget extends StatelessWidget {
               style: textstyle1,
             ),
             kheight5,
-            const Text(
+            Text(
               '20 Tasks added in this week',
-              style: TextStyle(fontSize: 12, color: kgrey),
+              style: textstyle10,
             )
           ],
         ),

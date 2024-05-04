@@ -43,7 +43,7 @@ class AddTaskScreen extends StatelessWidget {
                     icon: Icons.calendar_today_outlined,
                   ),
                   kheight100,
-                   SizedBox(
+                  SizedBox(
                     height: 55,
                     width: 350,
                     child: FloatingActionButton(
